@@ -1,0 +1,22 @@
+// Font Family
+$theme-text-font: 'Poppins', sans-serif;
+
+// Primary corols
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+// Neutral corols
+$Very-Dark-Blue: hsl(234, 12%, 34%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+$White: hsl(240, 100%, 100%);
+$Black: hsla(0,0,0,0.05);
+
+// Breakpoints
+$screen-sm: 576px;      // Large smartphones
+$screen-md: 768px;      // Small tablets
+$screen-lg: 992px;      // Tablets
+$screen-xl: 1200px;     // Desktops
+$screen-xxl: 1440px;    // Large desktops
