@@ -41,8 +41,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: rem(20);
-	padding-right: rem(30);
-	padding-left: rem(30);
+	padding: rem(0) rem(30);
 	background-color: $White;
 	border-radius: rem(5);
 	box-shadow: rem(10) rem(10) rem(5) rem(0) $Black;
@@ -127,18 +126,15 @@ body {
 @media (min-width: $screen-md) {
 	.head-text {
 		&__heading {
-			margin-left: rem(90);
-			margin-right: rem(90);
+			margin: rem(0) rem(90);
 			font-size: rem(38);
 			line-height: rem(50);
 		}
 		
 		&__info {
-			margin-left: rem(60);
-			margin-right: rem(60);
+			margin: rem(0) rem(60) rem(60) rem(60);
 			font-size: rem(24);
 			line-height: rem(32);
-			margin-bottom: rem(60);
 		}
 	}
 
@@ -167,17 +163,13 @@ body {
 		letter-spacing: rem(0.15);
 		
 		&__heading {
-			margin-left: rem(230);
-			margin-right: rem(230);
-			margin-top: rem(30);
+			margin: rem(30) rem(230) rem(0) rem(230);
 			padding-bottom: rem(20);
 			font-size: rem(36);
 		}
 
 		&__info {
-			margin-left: rem(200);
-			margin-right: rem(200);
-			margin-bottom: rem(45);
+			margin: rem(0) rem(200) rem(45) rem(200);
 			font-size: rem(15);
 			line-height: rem(24);
 		}
@@ -190,8 +182,7 @@ body {
 	}
 	.card {
 		margin-bottom: rem(0);
-		padding-right: rem(20);
-		padding-left: rem(30);
+		padding: rem(0) rem(20) rem(0) rem(30);
 		
 		&__heading {
 			padding-top: rem(20);
@@ -200,15 +191,13 @@ body {
 		}
 
 		&__info {
-			padding-top: rem(20);
-			padding-right: rem(0);
+			padding: rem(20) rem(0) rem(0) rem(0);
 			font-size: rem(12);
 			line-height: rem(20);
 		}
 
 		&__icon {
-			margin-bottom: rem(15);
-			margin-left: rem(250);
+			margin: rem(0) rem(0) rem(15) rem(250);
 			padding-top: rem(20);
 			transform: scale(1);
 		}
@@ -239,14 +228,12 @@ body {
 	.head-text {
 
 		&__heading {
-			margin-left: rem(300);
-			margin-right: rem(300);
+			margin: rem(0) rem(300);
 			padding-bottom: rem(18);
 		}
 
 		&__info{
-			margin-left: rem(280);
-			margin-right: rem(280);
+			margin: rem(0) rem(280) rem(45) rem(280);
 		}
 	}
 	.card-wrapper {
@@ -277,14 +264,11 @@ body {
 		
 		&__heading {
 			padding-bottom: rem(18);
-			margin-left: rem(450);
-			margin-right: rem(450);
+			margin: rem(85) rem(450) rem(0) rem(450);
 		}
 
 		&__info{
-			margin-left: rem(450);
-			margin-right: rem(450);
-			margin-bottom: rem(65);
+			margin: rem(0) rem(450) rem(65) rem(450);
 		}
 	}
 	.card-wrapper {
@@ -296,15 +280,13 @@ body {
 			padding-top: rem(25);
 		}
 		&__info {
-			padding-top: rem(10);
-			padding-right: rem(30);
+			padding: rem(10) rem(30) rem(0) rem(0);
 			line-height: rem(25);
 		}
 		
 		&__icon {
 			margin-left: rem(290);
-			padding-top: rem(35);
-			padding-right: rem(10);
+			padding: rem(35) rem(10) rem(0) rem(0);
 		}
 	}
 }
